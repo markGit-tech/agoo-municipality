@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Municipality of Agoo, La Union</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="index.html">
+  <img src="logo.png" alt="Municipality of Agoo Logo" height="50" width="50" class="navbar-logo me-2">
+  Municipality of Agoo
+</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navMenu">
+<ul class="navbar-nav ms-auto">
+<li><a class="nav-link" href="index.html">Home</a></li>
+<li><a class="nav-link" href="about.html">About</a></li>
+<li><a class="nav-link" href="attractions.html">Attractions</a></li>
+<li><a class="nav-link" href="events.html">Events</a></li>
+<li><a class="nav-link" href="businesses.html">Businesses</a></li>
+<li><a class="nav-link active" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="hero text-center text-white d-flex align-items-center" style="min-height: 300px;">
+<div class="container">
+<h1 style="font-size: 2.5rem;">Contact Us</h1>
+<p>Get in touch with Municipality of Agoo, La Union</p>
+</div>
+</div>
+
+<div class="container mt-5">
+
+<h2 data-aos="fade-up">Contact Municipality of Agoo</h2>
+
+<div class="row mt-4">
+
+<!-- LEFT SIDE - IMAGE -->
+<div class="col-md-6 mb-4" data-aos="fade-right">
+<img src="municipal.png" class="img-fluid rounded shadow" alt="Municipality of Agoo">
+</div>
+
+<!-- RIGHT SIDE - INFO -->
+<div class="col-md-6" data-aos="fade-left">
+
+<h5>Municipality of Agoo, La Union</h5>
+<p><strong>Address:</strong> Sta. Barbara, Agoo, Philippines, 2504</p>
+<p><strong>Phone:</strong> (072) 607 2184</p>
+<p><strong>Email:</strong> lgu_agoo@yahoo.com</p>
+
+<p><strong>Office Hours:</strong><br>
+Monday - Friday: 8:00 AM – 5:00 PM</p>
+
+</div>
+
+</div>
+
+<h3 class="mt-5 mb-4" data-aos="fade-up">Send us a Message</h3>
+
+<div class="row">
+
+<!-- FORM -->
+<div class="col-md-6" data-aos="fade-right">
+
+<form onsubmit="return validateForm()">
+<input type="text" id="name" class="form-control mb-2" placeholder="Your Name" required>
+<input type="email" id="email" class="form-control mb-2" placeholder="Your Email" required>
+<textarea id="message" class="form-control mb-2" placeholder="Your Message" required></textarea>
+<button class="btn btn-success w-100">Send Message</button>
+</form>
+
+</div>
+
+<!-- MAP SECTION -->
+<div class="col-md-6" data-aos="fade-left">
+<h5>Location Map</h5>
+<iframe 
+src="https://maps.google.com/maps?q=Municipal%20Hall%20Agoo%20La%20Union&output=embed"
+width="100%" height="300" style="border:0;" data-aos="zoom-in">
+</iframe>
+
+</div>
+
+<!-- AOS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 1000,
+  once: false,
+  offset: 100
+});
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
